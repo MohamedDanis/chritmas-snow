@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <script>
+        // creating 200 snowflake div
+        for (let snow=1; snow<200; snow++) {
+            // creating the div element
+            const flake = document.createElement('div')
+            // add snow class to it
+            flake.classList.add('snow')
+            // append the div to the body
+            document.body.appendChild(flake)
+        }
+    </script>
+
+
+</body>
+</html>
