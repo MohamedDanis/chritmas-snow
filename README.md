@@ -1,6 +1,6 @@
 # chritmas-snow
 
-Add snowfall animation to website to websites.
+Add snowfall animation to websites.
 
 
 
